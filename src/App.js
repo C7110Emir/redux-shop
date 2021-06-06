@@ -1,4 +1,5 @@
 import './App.css';
+import CompComponent from './components/CompComponent';
 import Laptopcomponent from './components/Laptopcomponent';
 import PhoneComponent from "./components/PhoneComponent"
 import WatchComponent from './components/WatchComponent';
@@ -10,6 +11,7 @@ function App() {
       <Laptopcomponent/>
       <PhoneComponent/>
       <WatchComponent/>
+      <CompComponent/>
     </div>
   );
 }
